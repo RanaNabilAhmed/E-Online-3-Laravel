@@ -262,12 +262,7 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/examples/invoice.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Invoice</p>
-                </a>
-              </li>
+              
               <li class="nav-item">
                 <a href="{{URL::to('')}}/pages/contact" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
