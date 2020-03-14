@@ -153,19 +153,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
+                <a href="{{URL::to('')}}/category/allcategory" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View All Category</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
+                <a href="{{URL::to('')}}/category/addcategory" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add New Category</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
+                <a href="{{URL::to('')}}/category/blockcategory" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Block Category List</p>
                 </a>
@@ -185,23 +185,11 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
+                <a href="{{URL::to('')}}/order/allorder" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View All Category</p>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Add New Category</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Block Category List</p>
-                </a>
-              </li>
+              </li>          
             </ul>
           </li>
           <!-- Order Dropdown Menu End -->
@@ -223,7 +211,7 @@
 
           <!-- Gallery Menu Start --> 
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="{{URL::to('')}}/pages/gallery" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Gallery
@@ -234,7 +222,7 @@
 
           <!-- MailBox Menu Start --> 
           <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+            <a href="{{URL::to('')}}/pages/mail" class="nav-link">
               <i class="nav-icon far fa-envelope"></i>
               <p>
                 Mailbox
@@ -281,47 +269,12 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/profile.html" class="nav-link">
+                <a href="{{URL::to('')}}/pages/contact" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Profile</p>
+                  <p>All Profile</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="pages/examples/e_commerce.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>E-commerce</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/projects.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Projects</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/project_add.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Project Add</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/project_edit.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Project Edit</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/project_detail.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Project Detail</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/contacts.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Contacts</p>
-                </a>
-              </li>
+
             </ul>
           </li>
           <!-- Pages Dropdown Menu End -->
